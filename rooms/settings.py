@@ -180,8 +180,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     ALLOWED_HOSTS = ['reservei.herokuapp.com']
-    ALLOWED_HOSTS = ['reservei.herokuapp.com/meeting/calendar/']
-    ALLOWED_HOSTS = [reservei.herokuapp.com/room/list]
+    
 
     DEBUG = False
 
