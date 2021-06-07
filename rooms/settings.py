@@ -182,7 +182,7 @@ if os.getcwd() == '/app':
     ALLOWED_HOSTS = ['reservei.herokuapp.com']
     
 
-    DEBUG = False
+    DEBUG = True
 
     # Config for staticfiles
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
