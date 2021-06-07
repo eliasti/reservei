@@ -25,7 +25,7 @@ SECRET_KEY = '_75&lj@==a@#(hlf)hp8-u=v&oqlr1fbf+xjxo3!!q#lbx1m+%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['reservei.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 INTERNAL_IPS = ['localhost', '127.0.0.1']
 
 # Application definition
