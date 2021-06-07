@@ -10,7 +10,6 @@ class RoomChangeForm(forms.ModelForm):
             'name',
             'description',
             'color',
-            
         )
 
 
