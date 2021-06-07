@@ -8,6 +8,7 @@ translation_dict = {
     'Name': 'Nome',
     'Slug': 'Slug',
     'Description': 'Descrição',
+    'Number of people': 'Numero de Pessoas'
     'Active': 'Ativa',
     'Color': 'Cor',
     'Room': 'Sala',
