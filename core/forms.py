@@ -8,8 +8,10 @@ class RoomChangeForm(forms.ModelForm):
         model = Room
         fields = (
             'name',
+            'Number of people'
             'description',
             'color',
+            
         )
 
 
