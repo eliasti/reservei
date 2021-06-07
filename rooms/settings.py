@@ -156,7 +156,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US'
 
 USE_I18N = True
 
@@ -179,7 +179,7 @@ if os.getcwd() == '/app':
 
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-    ALLOWED_HOSTS = ['']
+    ALLOWED_HOSTS = ['reservei.herokuapp.com']
 
     DEBUG = False
 
